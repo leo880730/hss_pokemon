@@ -22,20 +22,20 @@ window.onload = function () {
       {
         num: "Q1",
         que: "歡迎你來到真新鎮，大木博士詢問你喜歡：",
-        ans1: "▶ A. 個性溫和的妙蛙種子、傑尼龜",
+        ans1: "A. 個性溫和的妙蛙種子、傑尼龜",
         id1: "Q1A",
         ans1Href: 2,
-        ans2: "▷ B. 個性獨特、別具風格的小火龍",
+        ans2: "B. 個性獨特、別具風格的小火龍",
         id2: "Q1B",
         ans2Href: 4,
       },
       {
         num: "Q2",
         que: "在冒險途中，你遇到了非常難纏的阿柏怪，但是你沒有勇氣挑戰牠。在這種時候，請問你會希望得到哪樣的鼓勵？",
-        ans1: "▶ A. 你要鼓起勇氣，向前邁進，把勇氣鍛鍊出來",
+        ans1: "A. 你要鼓起勇氣，向前邁進，把勇氣鍛鍊出來",
         id1: "Q2A",
         ans1Href: 3,
-        ans2: "▷ B. 沒關係，盡力就好，不需要太勉強自己",
+        ans2: "B. 沒關係，盡力就好，不需要太勉強自己",
         id2: "Q2B",
         ans2Href: 5,
       },
@@ -150,6 +150,35 @@ window.onload = function () {
                   <h2 class="ansB" id="jin-wen">B. 奇魯莉安</h2>
                 `
                 typing("請選擇您的最佳夥伴：")
+
+                let choYin = document.querySelector('#cho-yin')
+                choYin.addEventListener('click', () => {
+                  choYin.style.backgroundColor = "#fff"
+                  choYin.style.color = "#000"
+
+                  setTimeout(() => {
+                    body.innerHTML = `
+                    <div class="result">
+                      <img src="./img/result/cho-yin.png" alt="">
+                    </div>
+                    `
+                  }, 600)
+                })
+
+                let jinWen = document.querySelector('#jin-wen')
+                jinWen.addEventListener('click', () => {
+                  jinWen.style.backgroundColor = "#fff"
+                  jinWen.style.color = "#000"
+
+                  setTimeout(() => {
+                    body.innerHTML = `
+                    <div class="result">
+                      <img src="./img/result/jin-wen.png" alt="">
+                    </div>
+                    `
+                  }, 600)
+                })
+
               }, 600)
             })
 
@@ -169,6 +198,34 @@ window.onload = function () {
                   <h2 class="ansB" id="yuan-liang">B. 喵喵</h2>
                 `
                 typing("請選擇您的最佳夥伴：")
+
+                let ruiHua = document.querySelector('#rui-hua')
+                ruiHua.addEventListener('click', () => {
+                  ruiHua.style.backgroundColor = "#fff"
+                  ruiHua.style.color = "#000"
+
+                  setTimeout(() => {
+                    body.innerHTML = `
+                    <div class="result">
+                      <img src="./img/result/rui-hua.png" alt="">
+                    </div>
+                    `
+                  }, 600)
+                })
+
+                let yuanLiang = document.querySelector('#yuan-liang')
+                yuanLiang.addEventListener('click', () => {
+                  yuanLiang.style.backgroundColor = "#fff"
+                  yuanLiang.style.color = "#000"
+
+                  setTimeout(() => {
+                    body.innerHTML = `
+                    <div class="result">
+                      <img src="./img/result/yuan-liang.png" alt="">
+                    </div>
+                    `
+                  }, 600)
+                })
               }, 600)
             })
           }, 600)
@@ -207,6 +264,34 @@ window.onload = function () {
                 <h2 class="ansB" id="gui-yun">B. 月亮伊布</h2>
               `
                 typing("請選擇您的最佳夥伴：")
+
+                let chonIP = document.querySelector('#chon-ip')
+                chonIP.addEventListener('click', () => {
+                  chonIP.style.backgroundColor = "#fff"
+                  chonIP.style.color = "#000"
+
+                  setTimeout(() => {
+                    body.innerHTML = `
+                    <div class="result">
+                      <img src="./img/result/chon-ip.png" alt="">
+                    </div>
+                    `
+                  }, 600)
+                })
+
+                let guiYun = document.querySelector('#gui-yun')
+                guiYun.addEventListener('click', () => {
+                  guiYun.style.backgroundColor = "#fff"
+                  guiYun.style.color = "#000"
+
+                  setTimeout(() => {
+                    body.innerHTML = `
+                    <div class="result">
+                      <img src="./img/result/gui-yun.png" alt="">
+                    </div>
+                    `
+                  }, 600)
+                })
               }, 600)
             })
 
@@ -226,6 +311,35 @@ window.onload = function () {
                   <h2 class="ansB" id="yi-jie">B. 菊草葉</h2>
                 `
                 typing("請選擇您的最佳夥伴：")
+
+                let wenLan = document.querySelector('#wen-lan')
+                wenLan.addEventListener('click', () => {
+                  wenLan.style.backgroundColor = "#fff"
+                  wenLan.style.color = "#000"
+
+                  setTimeout(() => {
+                    body.innerHTML = `
+                    <div class="result">
+                      <img src="./img/result/wen-lan.png" alt="">
+                    </div>
+                    `
+                  }, 600)
+                })
+
+                let yiJie = document.querySelector('#yi-jie')
+                yiJie.addEventListener('click', () => {
+                  yiJie.style.backgroundColor = "#fff"
+                  yiJie.style.color = "#000"
+
+                  setTimeout(() => {
+                    body.innerHTML = `
+                    <div class="result">
+                      <img src="./img/result/yi-jie.png" alt="">
+                    </div>
+                    `
+                  }, 600)
+                })
+
               }, 600)
             })
           }, 600)
@@ -264,6 +378,35 @@ window.onload = function () {
               <h2 class="ansB" id="yin-gui">B. 雷公</h2>
             `
             typing("請選擇您的最佳夥伴：")
+
+            let wangShan = document.querySelector('#wang-shan')
+            wangShan.addEventListener('click', () => {
+              wangShan.style.backgroundColor = "#fff"
+              wangShan.style.color = "#000"
+
+              setTimeout(() => {
+                body.innerHTML = `
+                    <div class="result">
+                      <img src="./img/result/wang-shan.png" alt="">
+                    </div>
+                    `
+              }, 600)
+            })
+
+            let yinGui = document.querySelector('#yin-gui')
+            yinGui.addEventListener('click', () => {
+              yinGui.style.backgroundColor = "#fff"
+              yinGui.style.color = "#000"
+
+              setTimeout(() => {
+                body.innerHTML = `
+                    <div class="result">
+                      <img src="./img/result/yin-gui.png" alt="">
+                    </div>
+                    `
+              }, 600)
+            })
+
           }, 600)
         })
 
@@ -283,6 +426,35 @@ window.onload = function () {
               <h2 class="ansB" id="how-z">B. 腕力</h2>
             `
             typing("請選擇您的最佳夥伴：")
+
+            let JT = document.querySelector('#JT-gui')
+            JT.addEventListener('click', () => {
+              JT.style.backgroundColor = "#fff"
+              JT.style.color = "#000"
+
+              setTimeout(() => {
+                body.innerHTML = `
+                    <div class="result">
+                      <img src="./img/result/JT.png" alt="">
+                    </div>
+                    `
+              }, 600)
+            })
+
+            let howZ = document.querySelector('#how-z')
+            howZ.addEventListener('click', () => {
+              howZ.style.backgroundColor = "#fff"
+              howZ.style.color = "#000"
+
+              setTimeout(() => {
+                body.innerHTML = `
+                    <div class="result">
+                      <img src="./img/result/how-z.png" alt="">
+                    </div>
+                    `
+              }, 600)
+            })
+
           }, 600)
         })
       }, 600)
