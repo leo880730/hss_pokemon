@@ -8,7 +8,8 @@ body,
 main,
 .soulmate,
 .content,
-.queContent {
+.queContent,
+.result {
   width: 100%;
   height: 100%;
 }
@@ -50,7 +51,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   height: 11em;
-  width: 22em;
+  width: 21em;
   position: relative;
   top: 2em;
   /* border: 1px solid #000; */
@@ -87,7 +88,7 @@ body {
 
 .content .top .title h1 {
   position: relative;
-  font-size: 2em;
+  font-size: 1.8em;
   /* transform: rotate(-5deg); */
 }
 
@@ -146,19 +147,12 @@ body {
 }
 
 .content .bottom .start {
-  margin-top: 2em;
+  margin-top: 2.6em;
   margin-right: 1.4em;
-  font-size: 1.4em;
+  font-size: 1.2em;
   opacity: 0;
   animation: startBtn-anim 1s 1.4s infinite backwards;
-}
-
-.content .bottom .startBtn {
   cursor: pointer;
-}
-
-.ti-cursor {
-  display: none;
 }
 
 @keyframes startBtn-anim {
@@ -243,4 +237,16 @@ body {
   100% {
     opacity: 100;
   }
+}
+
+.result {
+  display: flex;
+  align-items: center;
+}
+
+.result img {
+  width: 24rem;
+  height: 42rem;
+  margin: auto;
+  display: block;
 }
