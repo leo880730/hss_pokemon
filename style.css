@@ -188,7 +188,7 @@ body {
 .queContent .box {
   width: 22rem;
   height: 36rem;
-  margin: 2rem auto;
+  margin: 4rem auto;
   display: flex;
   flex-direction: column;
 }
