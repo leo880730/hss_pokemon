@@ -158,8 +158,9 @@ window.onload = function () {
 
                   setTimeout(() => {
                     body.innerHTML = `
+                    <audio src="./lyric/你是被抹去的那一段風景.mp3" autoplay loop id="music"></audio>
                     <div class="result">
-                      <img src="./img/result/cho-yin.png" alt="">
+                      <img src="./img/result/cho-yin.png" alt="" style="margin-left: 1em">
                     </div>
                     `
                   }, 600)
@@ -172,6 +173,7 @@ window.onload = function () {
 
                   setTimeout(() => {
                     body.innerHTML = `
+                    <audio src="./lyric/燕尾蝶.mp3" autoplay loop id="music"></audio>
                     <div class="result">
                       <img src="./img/result/jin-wen.png" alt="">
                     </div>
@@ -206,6 +208,7 @@ window.onload = function () {
 
                   setTimeout(() => {
                     body.innerHTML = `
+                    <audio src="./lyric/冬天裡的一把火.mp3" autoplay loop id="music"></audio>
                     <div class="result">
                       <img src="./img/result/rui-hua.png" alt="">
                     </div>
@@ -220,6 +223,7 @@ window.onload = function () {
 
                   setTimeout(() => {
                     body.innerHTML = `
+                    <audio src="./lyric/頭號甜心.mp3" autoplay loop id="music"></audio>
                     <div class="result">
                       <img src="./img/result/yuan-liang.png" alt="">
                     </div>
@@ -272,6 +276,7 @@ window.onload = function () {
 
                   setTimeout(() => {
                     body.innerHTML = `
+                    <audio src="./lyric/追光者.mp3" autoplay loop id="music"></audio>
                     <div class="result">
                       <img src="./img/result/chon-ip.png" alt="">
                     </div>
@@ -286,6 +291,7 @@ window.onload = function () {
 
                   setTimeout(() => {
                     body.innerHTML = `
+                    <audio src="./lyric/PLAY 我呸.mp3" autoplay loop id="music"></audio>
                     <div class="result">
                       <img src="./img/result/gui-yun.png" alt="">
                     </div>
@@ -319,6 +325,7 @@ window.onload = function () {
 
                   setTimeout(() => {
                     body.innerHTML = `
+                    <audio src="./lyric/天使.mp3" autoplay loop id="music"></audio>
                     <div class="result">
                       <img src="./img/result/wen-lan.png" alt="">
                     </div>
@@ -333,6 +340,7 @@ window.onload = function () {
 
                   setTimeout(() => {
                     body.innerHTML = `
+                    <audio src="./lyric/姊妹.mp3" autoplay loop id="music"></audio>
                     <div class="result">
                       <img src="./img/result/yi-jie.png" alt="">
                     </div>
@@ -386,10 +394,11 @@ window.onload = function () {
 
               setTimeout(() => {
                 body.innerHTML = `
-                    <div class="result">
-                      <img src="./img/result/wang-shan.png" alt="">
-                    </div>
-                    `
+                <audio src="./lyric/你是我的眼.mp3" autoplay loop id="music"></audio>
+                <div class="result">
+                  <img src="./img/result/wang-shan.png" alt="">
+                </div>
+                `
               }, 600)
             })
 
@@ -400,10 +409,11 @@ window.onload = function () {
 
               setTimeout(() => {
                 body.innerHTML = `
-                    <div class="result">
-                      <img src="./img/result/yin-gui.png" alt="">
-                    </div>
-                    `
+                <audio src="./lyric/Super Star.mp3" autoplay loop id="music"></audio>
+                <div class="result">
+                  <img src="./img/result/yin-gui.png" alt="">
+                </div>
+                `
               }, 600)
             })
 
@@ -427,13 +437,14 @@ window.onload = function () {
             `
             typing("請選擇您的最佳夥伴：")
 
-            let JT = document.querySelector('#JT-gui')
+            let JT = document.querySelector('#JT')
             JT.addEventListener('click', () => {
               JT.style.backgroundColor = "#fff"
               JT.style.color = "#000"
 
               setTimeout(() => {
                 body.innerHTML = `
+                <audio src="./lyric/妳是我的花朵.mp3" autoplay loop id="music"></audio>
                     <div class="result">
                       <img src="./img/result/JT.png" alt="">
                     </div>
@@ -448,6 +459,7 @@ window.onload = function () {
 
               setTimeout(() => {
                 body.innerHTML = `
+                <audio src="./lyric/妳是我的Wifi.mp3" autoplay loop id="music"></audio>
                     <div class="result">
                       <img src="./img/result/how-z.png" alt="">
                     </div>

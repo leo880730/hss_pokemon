@@ -226,10 +226,10 @@ body {
   line-height: 1.4em;
   color: #fff;
   opacity: 0;
-  animation: ans-emerge-anim 1s 3s forwards;
+  animation: emerge-anim 1s 3s forwards;
 }
 
-@keyframes ans-emerge-anim {
+@keyframes emerge-anim {
   0% {
     opacity: 0;
   }
@@ -247,6 +247,7 @@ body {
 .result img {
   width: 24rem;
   height: 42rem;
-  margin: auto;
+  margin-left: 1.7em;
   display: block;
+  animation: emerge-anim 2s forwards;
 }
