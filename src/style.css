@@ -188,7 +188,7 @@ body {
 .queContent .box {
   width: 22rem;
   height: 36rem;
-  margin: 2rem auto;
+  margin: 4rem auto;
   display: flex;
   flex-direction: column;
 }
@@ -242,12 +242,26 @@ body {
 .result {
   display: flex;
   align-items: center;
+  justify-content: center;
+  animation: emerge-anim 2.5s forwards;
 }
 
 .result img {
   width: 24rem;
   height: 42rem;
-  margin-left: 1.7em;
+  margin: 0 auto;
   display: block;
-  animation: emerge-anim 2s forwards;
+}
+
+.result div {
+  position: absolute;
+  width: 24rem;
+  height: 42rem;
+  margin: auto;
+}
+
+.result span {
+  position: relative;
+  top: 38.5rem;
+  left: 13rem;
 }
