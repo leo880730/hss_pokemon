@@ -5,7 +5,6 @@ window.onload = function () {
   let nextQueBtn = document.querySelector('.nextQueBtn')
   let ans = document.querySelectorAll('.ans')
 
-
   startBtn.addEventListener("click", () => {
     body.style.overflowY = "scroll";
     let isProcessing = true;
@@ -306,7 +305,7 @@ window.onload = function () {
 
                   setTimeout(() => {
                     body.innerHTML = `
-                    <audio src="./lyric/PLAY 我呸.mp3" autoplay id="music"></audio>
+                    <audio src="./lyric/PLAY我呸.mp3" autoplay id="music"></audio>
                     <div class="result">
                       <img src="./img/result/gui-yun.png" alt="">
                       <div>
