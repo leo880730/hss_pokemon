@@ -188,7 +188,7 @@ body {
 .queContent .box {
   width: 22rem;
   height: 36rem;
-  margin: 4rem auto;
+  margin: 6rem auto;
   display: flex;
   flex-direction: column;
 }
@@ -207,6 +207,19 @@ body {
   color: #fff;
   font-size: 1.2em;
   line-height: 1.4em;
+}
+
+#Q2-que-container,
+#Q3-que-container,
+#Q4-que-container,
+#Q5-que-container {
+  background-size: 22rem 10rem;
+}
+
+#Q2-ans-container,
+#Q3-ans-container,
+#Q5-ans-container {
+  background-size: 22rem 11rem;
 }
 
 .queContent .box .ans-container {
